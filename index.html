@@ -1,0 +1,33 @@
+<!DOCTYPE HTML>
+ <html>
+    <head>
+        <title>Achintya's TO DO List</title>
+        <link rel="stylesheet" href="dist/main.css">
+    </head>
+    <body>
+        <h1 class='container'>To Do List Scheduler</h1>
+        <div class='add'>
+            <span class="collapsible">Add To Do Item</span>
+            <div class="maindiv">
+                <!--add form div-->
+                <br>
+                <label for="outtime">Title</label>
+                <input type="text" id="title" name="outtime" placeholder="To Do">
+                <br><br>
+                <label for="outtime">Description</label>
+                <input type="text" id='desc' name="todolist" placeholder="To Do Description" class="frmip">
+                <br><br>
+                <label for="outtime">Add Deadline</label>
+                <input type="date" id="dt" name="outtime">
+                <input type="time" id="time" name="outtime">
+                <br><br>
+                <!--add button-->
+                <button id="show-btn">Add Item</button>
+            </div>
+        </div>
+        <div id="list">
+
+        </div>
+        <script type="text/javascript" src="js/main.js"></script>
+    </body>
+</html>
